@@ -1,0 +1,263 @@
+#home {
+	
+	#home_slide
+	{
+		background: @sph_navy_dk;
+
+		.slide,
+		.cycle-slide
+		{
+			width: 100%;
+
+			img {
+				margin: 0 auto;
+				width: 100%;
+				height: auto;
+				display: block;
+				overflow: hidden;
+				text-align: center;
+				z-index: 1;
+			}	
+			.slider_text {
+				padding: @margin;
+				.trans_bg(46,64,76,0.4);
+				.font_roboto();
+				font-size: 30px;
+				color: @white;
+				position: absolute;
+				left: 0;
+				bottom:@margin/2;
+				z-index: 2;
+				max-width: 630px;
+				margin-bottom: 0;
+
+				@media screen and (max-width:@screen-sm-max) {
+					font-size: 20px;
+					bottom: 0;
+				}
+
+				@media screen and (max-width:@screen-xs-max) {
+					position: relative;
+					width: 100%;
+					max-width: 100%;
+					bottom: 0;
+					font-size: 16px;
+					background: @sph_navy_dk;
+					padding: @margin/2;
+					padding-bottom:30px;
+				}
+			}
+		}
+
+		.cycle-pager {
+			margin-bottom: 0px;
+			right: 100px;
+			display: inline-block;
+			position: absolute;
+			bottom: @grid-gutter-width;
+			color: #fff;
+			line-height: 1;
+			z-index: 998;
+
+			span {
+				&:hover {
+					cursor: pointer;
+				}
+			}
+
+			@media screen and (min-width:@screen-sm-min) {
+				
+			}
+
+			@media screen and (max-width:@screen-xs-max) {
+				bottom: 0;
+				right: auto;
+				width: 100%;
+				text-align: center;
+				display: block;
+				line-height: 0;
+			}
+
+			span {
+				font-size: 60px;
+
+				@media screen and (max-width:@screen-xs-max) {
+					font-size: 75px;
+				}
+
+				&.cycle-pager-active,
+				&.cycle-pager-active:hover{
+					color: @sph_blue_lt;
+				}
+				&:hover
+				{
+					color: @sph_blue_md;
+				}
+			}
+		}
+	}
+
+	#home_horiz_slide {
+		background: #ebebeb;
+		width: 100%;
+		padding: 40px 0;
+		position: relative;
+		max-height: 885px;
+
+		.container {
+			max-width: 1006px;
+
+			@media screen and (max-width:@screen-md-max) {
+				max-width: 806px;
+			}
+
+			@media screen and (max-width:@screen-sm-max) {
+				max-width: 630px;
+			}
+		}
+
+		.blue_overlay {
+			padding-right: 2px;
+			padding-left: 2px;
+			margin-bottom: 0;
+
+			@media screen and (max-width:@screen-xs-max) {
+				margin-bottom: @margin/2;
+			}
+
+			a {
+				border-bottom: 3px solid @sph_navy_md;
+				&:hover {
+					border-bottom-color: @sph_blue_md;
+				}
+			}
+		}
+
+		.slide {
+			
+		}
+
+		.cycle-slideshow {
+			position: relative;
+		}
+
+		.cycle-prev, .cycle-next {
+			display: block;
+			width: 67px;
+			height: 67px;
+			background-color: #25323C;
+			background-color: RGBA(37, 50, 60, .7);
+			border-radius: 5px;
+
+			position: absolute;
+			top: 50%;
+			margin-top: -33.5px;
+			z-index: 1000;
+
+			transition: background-color 0.2s ease-in-out;
+
+			&:hover {
+				background-color: #25323C;
+			}
+
+			@media screen and (max-width:@screen-sm-max) {
+				width: 45px;
+				height: 45px;
+			}
+
+			@media screen and (max-width:@screen-xs-max) {
+				display: none;
+			}
+		}
+
+		.cycle-prev {
+			left: -82px;
+
+			@media screen and (max-width:@screen-sm-max) {
+				left: -60px;
+			}
+
+			span {
+				.site_sprite(-171px,-8px);
+				width: 10px;
+				height: 18px;
+				display: block;
+				margin: 0 auto;
+				position: relative;
+				top: 50%;
+				margin-top: -9px;
+			}
+		}
+
+		.cycle-next {
+			right: -82px;
+
+			@media screen and (max-width:@screen-sm-max) {
+				right: -60px;
+			}
+
+			span {
+				.site_sprite(-160px,-8px);
+				width: 10px;
+				height: 18px;
+				display: block;
+				margin: 0 auto;
+				position: relative;
+				top: 50%;
+				margin-top: -9px;
+			}
+		}
+	}
+
+	#reach {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		h2 {
+			.font_roboto_slab(400);
+			font-size: 24px;
+			line-height: 1.25;
+		}
+
+		.col-md-6 {
+			@media screen and (max-width:@screen-md-max) {
+				margin-bottom: @margin;
+			}
+			@media screen and (max-width:@screen-sm-max) {
+				margin-bottom: @margin;
+			}
+			@media screen and (min-width:@screen-xs-min) {
+				//margin-bottom: 0;
+				&:last-child {
+					//margin-bottom: 0;
+				}
+			}
+			@media screen and (max-width:@screen-xs-max) {
+				margin-bottom: @margin;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+
+		}
+
+		a {
+			img {
+				transition: opacity 0.2s ease-in-out;
+			}
+
+			&:hover {
+				img {
+					opacity: 0.7;
+				}
+			}
+		}
+
+		.home_widget_globe {
+			@media screen and (min-width:@screen-sm-min) {
+				float: right;
+			}
+		}
+
+	}
+
+} 

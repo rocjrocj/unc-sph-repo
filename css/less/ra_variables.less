@@ -1,0 +1,81 @@
+//colors
+
+@sph_blue_lt: #4E96D0;
+@sph_blue_md: #32648C;
+@sph_blue_dk: #282E36;
+
+@sph_navy_lt: #2f404d;
+@sph_navy_md: #293843;
+@sph_navy_dk: #262e35;
+
+@sph_gray_lt: #DADADA;
+@sph_gray_md: #7b7b7b;
+
+@sph_lt: #fefefe;
+@sph_dk: #111;
+
+@sph_max_lt: #fff;
+@sph_max_dk: #000;
+
+@white:#f7f7f7;
+
+//typefaces
+
+@sph_roboto: 'Roboto', sans-serif;
+@sph_roboto_cnd: 'Roboto Condensed', sans-serif;
+@sph_roboto_slab: 'Roboto Slab', serif;
+
+.font_roboto(@weight:400) {
+	font-family: @sph_roboto;
+	font-weight: @weight;
+}
+
+.font_roboto_cnd(@weight:400) {
+	font-family: @sph_roboto_cnd;
+	font-weight: @weight;
+}
+
+.font_roboto_slab(@weight:400) {
+	font-family: @sph_roboto_slab;
+	font-weight: @weight; 
+}
+
+@margin: @grid-gutter-width;
+@screen-tn-min: 480px;
+
+//mixins
+.site_sprite(@posx:0; @posy:0)
+	{
+		background: url('images/sph-sprite-standard.png') @posx @posy no-repeat transparent;
+		
+		// Retina Sprites
+		@media
+			(min-moz-device-pixel-ratio: 2),
+			(-o-min-device-pixel-ratio: 2/1),
+			(-webkit-min-device-pixel-ratio: 2),
+			(min-device-pixel-ratio: 2)
+		{
+			background-image:url('images/sph-sprite-retina.png');
+			background-size: 400px 136px;
+			-webkit-background-size:400px 136px; 
+		}
+
+	}
+	
+.text_shadow (@x:2px,@y:2px,@blur:0,@opacity:.42) {
+	text-shadow: @x @y @blur rgba(0, 0, 0, @opacity);
+}
+
+.trans_bg (@r,@g,@b,@o) {
+	background-color:rgba(@r,@g,@b,@o);
+}
+
+.glyph {
+	vertical-align: middle;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

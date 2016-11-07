@@ -1,0 +1,46 @@
+footer {
+
+	background-color: @sph_navy_dk;
+	padding: @margin 0 @margin/2;
+	color: @sph_max_lt;
+	min-height: 92px;
+
+	p {
+		text-transform: uppercase;
+		font-size: 13px;
+		letter-spacing:1.5px;
+		margin-bottom: 5px;
+
+		@media screen and (max-width:@screen-xs-max) {
+			text-align: center;
+		}
+
+		span {
+			padding: 0 5px;
+		}
+
+		strong {
+			.font_roboto_cnd(700);
+			font-size: 14px;
+			@media screen and (max-width:@screen-xs-max) {
+				font-size: 11px;
+			}
+		}
+		&.footer_address {
+			.font_roboto(400);
+			font-size: 12px;
+		}
+	}
+
+	.social_bar_footer {
+		float: none !important;
+	}
+
+	.footer_logo {
+		margin-top: -9px;
+
+		@media screen and (max-width:@screen-sm-max) {
+			margin-top: 0;
+		}
+	}
+}
