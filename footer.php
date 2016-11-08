@@ -1,35 +1,20 @@
-</div><!-- /#omni_wrap -->
-
-<footer>
+<footer id="site_footer">
 	<div class="container">
-		<div class="row clearfix">
-
-			<div class="col-xs-12 visible-xs social_bar_footer">
-				<ul class="social_bar">
-					<li class="facebook"><a href="#"></a></li>
-					<li class="linkedin"><a href="#"></a></li>
-					<li class="twitter"><a href="#"></a></li>
-					<li class="youtube"><a href="#"></a></li>
-					<li class="googleplus"><a href="#"></a></li>
-					<li class="pinterest"><a href="#"></a></li>
-				</ul>
+		<div class="row">
+			<div class="small-12 medium-4 columns">
+				<p><span class="blogname">Monday Morning&nbsp;</span> <span class="author">Barbara K. Rimer, DRPH</span> </p>
 			</div>
-
-			<div class="col-sm-9">
-				<p>
-					<strong>UNC Gillings School of Global Public Health <span>|</span> <a href="#">Contact</a></strong>
-				</p>
-				<p class="footer_address">
-					170 Rosenau Hall, CB #7400 <span>|</span> 135&nbsp;Dauer&nbsp;Drive <span>|</span> Chapel&nbsp;Hill,&nbsp;NC&nbsp;27599&#8209;7400
-				</p>
-			</div><!-- /.col-9 -->
-
-			<div class="col-sm-3 hidden-xs footer_logo">
-				<a href="#"><img src="http://sph.unc.edu/wp-content/themes/sph-wp-theme-2014/images/placeholder/unc_logo.png" alt="" class="img-responsive"></a>
+			<div class="medium-break-12 small-12 medium-8 columns medium-text-right">
+				<div class="sphMM_footerlinks">
+					<ul id="menu-footer-menu" class="inline-list right">
+						<li id="menu-item-8780" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8780"><a href="http://mondaymorning.web.unc.edu/comment-policy/">Comment policy</a></li>
+						<li id="menu-item-8781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8781"><a href="http://mondaymorning.web.unc.edu/privacy-policy/">Privacy policy</a></li>
+						<li id="menu-item-8779" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8779"><a href="http://mondaymorning.web.unc.edu/text-size/">Text size and webpage scaling</a></li>
+					</ul>
+				</div>
 			</div>
-
-		</div><!-- /.row -->
-	</div><!-- /.container -->
+		</div>
+	</div>
 </footer>
 
 <!-- include compiled js files -->

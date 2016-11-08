@@ -1,0 +1,27 @@
+/* CSS Document */
+#blog {
+  text-align: center;
+  text-transform: uppercase;
+}
+#blog .blog_hea h1 {
+  font-size: 36px;
+}
+#blog .blog_hea h2 {
+  font-size: 22px;
+}
+#blog .page_hero .hero_content {
+  position: relative;
+}
+#blog .page_hero .hero_content .hero_bar {
+  position: absolute;
+  background-color: #000;
+  opacity: .5;
+  z-index: 99;
+}
+#blog .page_hero .hero_content img {
+  max-width: 1170px;
+}
+#main_content .page_contentz img {
+  max-width: 300px;
+  padding: 20px;
+}
