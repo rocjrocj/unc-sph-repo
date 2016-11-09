@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>School of Public Health</title>
+<title>Monday Morning | A blog by UNC Gillings School of Global Public Health Dean Barbara K. Rimer</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--[if lt IE 9]>
 	<script>
@@ -18,7 +18,7 @@
 <![endif]-->
 
 <link rel="stylesheet" type="text/css" href="style.css"/>
-<!--<link rel="stylesheet" type="text/css" href="sph_factsheet.css"/>-->
+<link rel="stylesheet" type="text/css" href="css/sph_blog_footer.css">
 <link rel="stylesheet" type="text/css" href="sph_blog.css"/>
 <link href='//fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Condensed:400,700|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
 
@@ -26,7 +26,7 @@
 
 <body>
 
-<div id="omni_wrap">	
+<div id="omni_wrapx">	
 
 <div id="search-xs">
 	<form action="#">
