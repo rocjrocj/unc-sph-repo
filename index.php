@@ -8,8 +8,7 @@
 				<h1 class="logo_l"><img src="images/mm_logo_large.png" class="img-responsive" alt="Monday Morning"/></h1>
 				<h1 class="logo_s"><img src="images/mm_logo_small.png" class="img-responsive" alt="Monday Morning"/></h1>
 				<h2><img src="images/bkr_logo_large.png" class="img-responsive" alt="Barbara K. Rimer, DRPH"/></h2>
-			</div>
-			<!-- /.row -->
+			</div> <!-- /.row -->
 			<div class="row tline">
 				<ul>
 					<li><a href="#">Introduction</a></li>
@@ -17,43 +16,54 @@
 					<li><a href="#">Archives</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
-			</div>
-			<!-- /.row --> 
-		</div>
-		<!-- /.container --> 
-	</div>
-	<!-- mm blog header end -->
+			</div> <!-- /.row --> 
+		</div> <!-- /.container --> 
+	</div> <!-- mm blog header end -->
 	<div class="blog_hero">
+		<div class="hero_img"></div>
+		<div class="hero_bar"></div>
 		<div class="container">
-			<div class="hero_content">
-				<div class="hero_img"><img class="img-responsive" src="images/pho2.jpg" alt="" /></div>
-				<div class="hero_txt">
-					<h5>Higher Ed</h5>
-					<h3>Freedom of speech and expression … still</h3>
-				</div>
-				<div class="hero_bar"></div>
+			<div class="row">
+				<div class="blog_hero_content">
+					<div class="blog_hero_txt">
+						<h5>Higher Ed</h5>
+						<h3>Freedom of speech and expression … still</h3>
+					</div>
+				</div> <!-- /.blog_hero_content --> 
 			</div>
-			<!-- /.hero_content --> 
-		</div>
-		<!-- /.container --> 
-	</div>
-	<!-- /.page_hero -->
-	
+		</div> <!-- /.container --> 
+	</div> <!-- /.blog_hero -->
+	<div class="blog_hero_sm">
+		<div class="hero_img_sm"><img src="images/unc-hero2.jpg" class="img-responsive" alt=""/></div>
+		<div class="container">
+			<div class="row">
+				<div class="blog_hero_content">
+					<div class="blog_hero_txt">
+						<h5>Higher Ed</h5>
+						<h3>Freedom of speech and expression … still</h3>
+					</div>
+				</div> <!-- /.blog_hero_content --> 
+			</div>
+		</div> <!-- /.container --> 
+	</div> <!-- /.blog_hero_sm -->
 	<div id="main_content">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-9 blog_content">
-					<div class="row clearfix blurb blurb_top"> <img src="images/bpho1.jpg" class="img-responsive" alt=""/>
+					<div class="row clearfix blurb blurb_top">
+						<div class="bpho"><img src="images/bpho1.jpg" class="img-responsive" alt=""/></div>
 						<h6>Diversity, Higher Ed</h6>
 						<h3>Ebony and Ivy: our history and our present</h3>
 						<p>I’ve been doing a small, non-random survey of people with whom I came into contact over the last couple weeks. I asked them how they felt about the fact that some of our best universities were not just places of higher learning; they were bastions of slavery... <a href="#"><span class="glyphicon glyphicon-arrow-right"></span></a></p>
 					</div>
-					<div class="row clearfix blurb blurb_blu"> <img src="images/bpho2.jpg" class="img-responsive" alt=""/>
+					<div class="row clearfix blurb blurb_blu">
+						<div class="bpho"><img src="images/bpho2.jpg" class="img-responsive" alt=""/></div>
 						<h6>North Carolina, Students</h6>
 						<h3>Winter wonderland: graduates don blue and white in the Smith Center</h3>
 						<p>Hard to believe it was time for another commencement. Over the years since becoming dean, I’ve gone from a commencement cynic to an enthusiast... <a href="#"><span class="glyphicon glyphicon-arrow-right"></span></a></p>
 					</div>
-					<div class="row clearfix blurb"> <img src="images/bpho1.jpg" class="img-responsive" alt=""/>
+					<div class="row clearfix blurb">
+						<div class="bpho"><img src="images/bpho1.jpg" class="img-responsive" alt=""/></div>
 						<h6>Diversity, Higher Ed</h6>
 						<h3>Ebony and Ivy: our history and our present</h3>
 						<p>I’ve been doing a small, non-random survey of people with whom I came into contact over the last couple weeks. I asked them how they felt about the fact that some of our best universities were not just places of higher learning; they were bastions of slavery... <a href="#"><span class="glyphicon glyphicon-arrow-right"></span></a></p>
@@ -73,8 +83,7 @@
 							<li class="pagination_bar"></li>
 							<li><a class="pagination_next" href="#">Older ></a></li>
 						</ul>
-					</div>
-					<!--// end .pagination --> 
+					</div> <!--// end .pagination --> 
 				</div>
 				<div class="col-md-3 blog_sidebar">
 					<div class="blogroll">

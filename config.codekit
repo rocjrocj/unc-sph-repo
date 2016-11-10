@@ -1401,6 +1401,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/unc-hero1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 242822,
+		"inputAbbreviatedPath": "\/images\/unc-hero1.jpg",
+		"outputAbbreviatedPath": "\/images\/unc-hero1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/unc-hero2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213235,
+		"inputAbbreviatedPath": "\/images\/unc-hero2.jpg",
+		"outputAbbreviatedPath": "\/images\/unc-hero2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/unc-hero3-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.03164e+06,
+		"inputAbbreviatedPath": "\/images\/unc-hero3-2x.jpg",
+		"outputAbbreviatedPath": "\/images\/unc-hero3-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/unc-hero3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 399573,
+		"inputAbbreviatedPath": "\/images\/unc-hero3.jpg",
+		"outputAbbreviatedPath": "\/images\/unc-hero3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,

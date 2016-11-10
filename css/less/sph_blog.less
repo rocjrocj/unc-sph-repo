@@ -141,12 +141,35 @@
 	/************************************** e blog_hea **************************************/
 	/************************************** s blog_hero **************************************/
 	.blog_hero {
-		.hero_content {
+		position: relative;
+		background-image: url(../../images/unc-hero2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		max-height: 431px;
+		@media screen and (max-width:767px) {
+			display: none;
+		}
+		.hero_bar {
+			position: absolute;
+			bottom: 0;
+			background-color: @herobar_dblu;
+			width: 100%;
+			height: 90px;
+			opacity: .77;
+			z-index: 89;
+			@media screen and (max-width:767px) {
+				display: none;
+			}
+			@media screen and (max-width:480px) {
+			}
+		}
+		.blog_hero_content {
 			position: relative;
-			.hero_txt {
+			min-height: 431px;
+			.blog_hero_txt {
 				position: absolute;
 				bottom: 15px;
-				left: 30px;
 				z-index: 99;
 				@media screen and (max-width:767px) {
 					position: relative;
@@ -182,27 +205,67 @@
 					}
 				}
 			}
-			.hero_bar {
-				position: absolute;
-				bottom: 0;
-				background-color: @herobar_dblu;
-				/*color: #fff;*/
-				width: 100%;
-				height: 90px;
-				opacity: .77;
-				z-index: 89;
-				@media screen and (max-width:767px) {
-					display: none;
-				}
-				@media screen and (max-width:480px) {
-				}
-			}
-			img {
-				z-index: 79;
-			}
 		}
 	}
 	/************************************** e blog_hero **************************************/
+	/************************************** s blog_hero_sm **************************************/
+	.blog_hero_sm {
+		display: none;
+		/*position: relative;
+		background-image: url(../../images/unc-hero2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		max-height: 431px;*/
+		@media screen and (max-width:767px) {
+			/*background-size: 100%;*/
+			display: block;
+		}
+		.blog_hero_content {
+			/*position: relative;
+			min-height: 431px;*/
+			.blog_hero_txt {
+				/*position: absolute;
+				bottom: 15px;
+				z-index: 99;*/
+				color: #2c3c49;
+				padding: 0 30px;
+				@media screen and (max-width:767px) {
+					/*position: relative;
+					bottom: auto;
+					left: auto;*/
+				}
+				@media screen and (max-width:480px) {
+				}
+				h3 {
+					font-family: 'RobotoBoldCondensed', sans-serif;
+					font-size: 35px;
+					font-weight: normal;
+					color: #fff;
+					line-height: 36px;
+					.mp0;
+					color: #2c3c49;
+					@media screen and (max-width:767px) {
+					}
+				}
+				h5 {
+					font-family: 'RobotoBold', sans-serif;
+					font-size: 14px;
+					font-weight: normal;
+					text-transform: uppercase;
+					line-height: 24px;
+					letter-spacing: 1px;
+					color: #fff;
+					.mp0;
+					color: #2c3c49;
+					margin-top: 10px;
+					@media screen and (max-width:767px) {
+					}
+				}
+			}
+		}
+	}
+	/************************************** e blog_hero_sm **************************************/
 	/************************************** s main_content **************************************/
 	#main_content {
 		margin-top: 100px;
@@ -258,13 +321,18 @@
 					@media screen and (max-width:480px) {
 					}
 				}
+				.bpho {
+					@media screen and (max-width:767px) {
+						width: 100%;
+					}
+				}
 				img {
 					padding-right: 30px;
 					float: left;
 					@media screen and (max-width:767px) {
 						float: none;
 						padding-right: 0;
-						text-align: center;
+						.m0a;
 					}
 					@media screen and (max-width:480px) {
 					}
